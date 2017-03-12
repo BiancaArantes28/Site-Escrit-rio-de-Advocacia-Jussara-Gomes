@@ -29,7 +29,7 @@
 	<div class="copyright">
 		<div class="container texto-copyright">
 			
-				<center>© 2016 Emerson Advocacia. Todos os direitos reservados. Desenvolvido por <a target="_blank" href="http://arantes.16mb.com/">Bianca Arantes</a></center>
+				<center>© 2017 Jussara Gomes Advocacia. Todos os direitos reservados. Desenvolvido por <a target="_blank" href="http://arantes.16mb.com/">Bianca Arantes</a></center>
 		</div>
 	</div>
 	</body>
