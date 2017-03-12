@@ -1,0 +1,159 @@
+@cor-padrao: #444243;
+@cor-fonte-header: #FFFFFF;
+@cor-secundaria: #c20000;
+.montaBotao(@bk-color,@color){
+	color:@bk-color;
+	background-color:@color;
+	border:1px solid @bk-color;
+	&:hover{
+		background-color:@bk-color;
+		color:@color;
+	}
+}
+.colcocarBorda(@width){
+	width:@width;
+	border-bottom:1px solid @cor-secundaria;
+	margin-bottom:20px;
+}
+body{
+	top:0px;
+	right:0px;
+	left:0px;
+}
+#header{
+	background-color:@cor-padrao;
+	width:100%;
+	height:75px;
+	
+}
+.telefone{
+	width:100%;
+	padding:5px;
+}
+.header-text{
+	color:@cor-fonte-header;
+}
+.header-text a{
+	color:@cor-fonte-header;
+}
+#main-nav{
+	background-color:#FFFFFF;
+	width:100% !important;
+	top:0px;
+	border-radius:0px;
+	border:none;
+	margin:0px;
+}
+.navbar-nav li a:hover{
+	color:@cor-secundaria !important;
+}
+#banner{
+	width:100%;
+	height:453px;
+}
+.carousel{
+	margin-top:10px;
+}
+.carousel-inner{
+	width:100%;
+	max-height:453px;
+	top:5px;
+}
+.imagens-banner{
+	width:100%;
+	min-height:453px;
+	max-height:453px;
+}
+#quem-somos{
+	width:100%;
+	height:auto;
+	
+}
+.breve-quem-somos{
+	margin-bottom:60px;
+}
+.breve-quem-somos h1{
+	color:@cor-secundaria;
+	margin-top:60px;
+}
+.margintop30{
+	margin-top:30px;
+}
+.img-quem-somos{
+	border:1px solid black;
+}
+.breve-texto{
+	margin-bottom:60px;
+}
+.breve-texto p{
+	font-size:14px;
+	
+}
+.botao-conheca-mais{
+	.montaBotao(@cor-secundaria,#FFFFFF);
+	margin-top:30px;
+}
+#footer{
+	width:100%;
+	background-color:@cor-padrao;
+	height:auto;
+}
+.h3-footer{
+	margin-top:60px;
+	margin-bottom:60px;
+}
+.h3-footer h3{
+	color:#FFFFFF;
+	margin-bottom:5px;
+	font-size:18px;
+	font-weight:bold;
+}
+.border-bootom{
+	.colcocarBorda(36%);
+	
+}
+.border-bootommenu{
+	.colcocarBorda(16%);
+	
+}
+.border-bootomatendimento{
+	.colcocarBorda(38%);
+}
+.menu-footer{
+	list-style:none;
+	padding:0px;
+}
+.menu-footer li a{
+	color:#FFFFFF;
+	&:hover{
+		color:@cor-secundaria;
+		text-decoration:none;
+	}
+}
+.texto-footer{
+	color:#FFFFFF;
+	margin-bottom:15px;
+}
+.texto-footer a{
+	color:#FFFFFF;
+	&:hover{
+		color:@cor-secundaria;
+		text-decoration:none;
+	}
+}
+.copyright{
+	width:100%;
+	height:75px;
+	padding:25px;
+	background-color:@cor-secundaria;
+}
+.texto-copyright{
+	color:#FFFFFF;
+}
+.texto-copyright a{
+	color:#FFFFFF;
+	&:hover{
+		color:@cor-padrao;
+		text-decoration:none;
+	}
+}

@@ -1,0 +1,149 @@
+body {
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+#header {
+  background-color: #444243;
+  width: 100%;
+  height: 75px;
+}
+.telefone {
+  width: 100%;
+  padding: 5px;
+}
+.header-text {
+  color: #FFFFFF;
+}
+.header-text a {
+  color: #FFFFFF;
+}
+#main-nav {
+  background-color: #FFFFFF;
+  width: 100% !important;
+  top: 0px;
+  border-radius: 0px;
+  border: none;
+  margin: 0px;
+}
+.navbar-nav li a:hover {
+  color: #c20000 !important;
+}
+#banner {
+  width: 100%;
+  height: 453px;
+}
+.carousel {
+  margin-top: 10px;
+}
+.carousel-inner {
+  width: 100%;
+  max-height: 453px;
+  top: 5px;
+}
+.imagens-banner {
+  width: 100%;
+  min-height: 453px;
+  max-height: 453px;
+}
+#quem-somos {
+  width: 100%;
+  height: auto;
+}
+.breve-quem-somos {
+  margin-bottom: 60px;
+}
+.breve-quem-somos h1 {
+  color: #c20000;
+  margin-top: 60px;
+}
+.margintop30 {
+  margin-top: 30px;
+}
+.img-quem-somos {
+  border: 1px solid black;
+}
+.breve-texto {
+  margin-bottom: 60px;
+}
+.breve-texto p {
+  font-size: 14px;
+}
+.botao-conheca-mais {
+  color: #c20000;
+  background-color: #FFFFFF;
+  border: 1px solid #c20000;
+  margin-top: 30px;
+}
+.botao-conheca-mais:hover {
+  background-color: #c20000;
+  color: #FFFFFF;
+}
+#footer {
+  width: 100%;
+  background-color: #444243;
+  height: auto;
+}
+.h3-footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.h3-footer h3 {
+  color: #FFFFFF;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.border-bootom {
+  width: 36%;
+  border-bottom: 1px solid #c20000;
+  margin-bottom: 20px;
+}
+.border-bootommenu {
+  width: 16%;
+  border-bottom: 1px solid #c20000;
+  margin-bottom: 20px;
+}
+.border-bootomatendimento {
+  width: 38%;
+  border-bottom: 1px solid #c20000;
+  margin-bottom: 20px;
+}
+.menu-footer {
+  list-style: none;
+  padding: 0px;
+}
+.menu-footer li a {
+  color: #FFFFFF;
+}
+.menu-footer li a:hover {
+  color: #c20000;
+  text-decoration: none;
+}
+.texto-footer {
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.texto-footer a {
+  color: #FFFFFF;
+}
+.texto-footer a:hover {
+  color: #c20000;
+  text-decoration: none;
+}
+.copyright {
+  width: 100%;
+  height: 75px;
+  padding: 25px;
+  background-color: #c20000;
+}
+.texto-copyright {
+  color: #FFFFFF;
+}
+.texto-copyright a {
+  color: #FFFFFF;
+}
+.texto-copyright a:hover {
+  color: #444243;
+  text-decoration: none;
+}
